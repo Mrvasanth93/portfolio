@@ -1,0 +1,95 @@
+.home{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+.home .left-or-top{
+    display: grid;
+    justify-content: center;
+    width: 100%;
+}
+.home .left-or-top h1{
+    font-size: 50px;
+    height: fit-content;
+}
+.home .left-or-top h1 span {
+    font-size: 50px ;
+    color: blue;
+}
+.home .right-or-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home .right-or-bottom .profile-img{
+    width: 400px;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer .social-medias{
+    display: flex;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer .social-medias .icons{
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+.footer .social-medias .icons img{
+    width: 100%;
+}
+@media  (max-width:900px) {
+    .home .left-or-top h1{
+        font-size: 35px;
+        height: fit-content;
+    }
+    .home .left-or-top h1 span {
+        font-size: 35px ;
+        color: blue;
+    }
+    .home .right-or-bottom .profile-img{
+        width: 350px;
+    }
+}
+@media  (max-width:750px) {
+    .home .left-or-top h1{
+        font-size: 25px;
+        height: fit-content;
+    }
+    .home .left-or-top h1 span {
+        font-size: 25px ;
+        color: blue;
+    }
+    .home .right-or-bottom .profile-img{
+        width: 250px;
+    }
+}
+@media  (max-width:500px) {
+    .home {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+    .home .left-or-top h1{
+        font-size: 35px;
+        height: fit-content;
+    }
+    .home .left-or-top h1 span {
+        font-size: 35px ;
+        color: blue;
+    }
+    .home .right-or-bottom .profile-img{
+        width: 300px;
+    }
+}
