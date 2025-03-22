@@ -1,12 +1,12 @@
 import "./home.css"
-import profileBanner from "../../assets/profile.png"
+import profile from "../../assets/0Z6A1905.jpg"
 import github from "../../assets/icons8-github-32.png"
 import instagram from "../../assets/icons8-instagram-32.png"
 import linkedin from "../../assets/icons8-linkedin-48.png"
 const Home = () =>{
     return(
         <>
-            <div className="home">
+            <div id="home" className="home">
                 <div className="left-or-top">
                     <h1>Hi,</h1>
                     <h1>I am <span>Vasanth</span></h1>
@@ -14,7 +14,7 @@ const Home = () =>{
                 </div>
                 <div className="right-or-bottom">
                     <div className="profile-img">
-                        <img className="proflile-banner" src={profileBanner} alt="" />
+                        <img className="proflile-banner" src={profile} alt="" />
                     </div>
                 </div>
             </div>

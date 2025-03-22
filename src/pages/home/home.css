@@ -1,9 +1,9 @@
 .home{
+    margin-top: 20px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 90vh;
 }
 .home .left-or-top{
     display: grid;
@@ -25,12 +25,17 @@
 }
 .home .right-or-bottom .profile-img{
     width: 400px;
+    border-radius: 10px;
+}
+.home .right-or-bottom .profile-img img{
+    width: 100%;
+    border-radius: 10px;
 }
 .footer{
     width: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
+    display: none;
 }
 .footer .social-medias{
     display: flex;
@@ -82,14 +87,15 @@
         justify-content: center;
     }
     .home .left-or-top h1{
-        font-size: 35px;
+        font-size: 30px;
         height: fit-content;
     }
     .home .left-or-top h1 span {
-        font-size: 35px ;
+        font-size: 30px ;
         color: blue;
     }
     .home .right-or-bottom .profile-img{
-        width: 300px;
+        width: 250px;
+        margin-top: 20px;
     }
 }

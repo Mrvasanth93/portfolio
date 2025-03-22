@@ -1,0 +1,79 @@
+.about-tittle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tittle{
+    color: blue;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    border-bottom: 2px solid blue;
+    width: fit-content;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.about .about-left-or-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about .about-left-or-top .pro-img{
+    margin-top: 20px;
+    width: 60%;
+}
+.about .about-left-or-top .pro-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+.about .about-right-or-bottom h1{
+    width: 60%;
+    text-align:justify;
+    color: rgba(0, 0, 0, 0.384);
+    font-size: 25px;
+}
+.about .about-right-or-bottom p{
+    width: 70%;
+    text-align:justify;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.76);
+}
+@media (max-width:900px) {
+    .about .about-left-or-top .pro-img{
+       width: 55%;
+       height: 350px;
+    }
+    .about .about-right-or-bottom h1{
+        font-size: 20px;
+    }
+    .about .about-right-or-bottom p{
+        font-size: 8;
+    }
+}
+@media (max-width:750px) {
+    .about .about-left-or-top{
+       display: none;
+    }
+    .about .about-right-or-bottom{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .about .about-right-or-bottom h1{
+        width: 80%;
+        font-size: 20px;
+    }
+    .about .about-right-or-bottom p{
+        width: 80%;
+        font-size: 8;
+    }
+}

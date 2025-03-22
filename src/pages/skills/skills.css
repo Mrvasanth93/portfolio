@@ -1,0 +1,60 @@
+.skills-tittle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tittle{
+    color: blue;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    border-bottom: 2px solid blue;
+    width: fit-content;
+}
+.skill-section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skill-section .skills{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.skill-section .skills .skill{
+    cursor: pointer;
+    transition: 0.3s ease;
+    width: 90px;
+    padding: 15px 10px;
+    border-radius: 5px;
+    border: 0.5px solid rgba(0, 0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align:center;
+    box-sizing: border-box;
+    box-shadow: .5px .5px 5px rgba(0, 0, 0, 0.199),
+                -.5px -.5px 5px rgba(0, 0, 0, 0.199)    ;
+}
+.skill-section .skills .skill:hover{
+    transform: scale(1.05);
+    border:0.5px solid rgba(0, 0, 0, 0.404);
+}
+.skill-section .skills .skill h5{
+    width: 100%;
+    font-size: 12px;
+}
+.skill-section .skills .skill div{
+    width: 60%;
+}
+.skill-section .skills .skill div img{
+    width: 100%;
+}
