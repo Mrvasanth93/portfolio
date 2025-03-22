@@ -3,17 +3,3 @@
   padding: 0;
   width: 100%;
 }
-@keyframes identifier {
-  0%{
-      color: rgba(255, 255, 255, 0.151);
-      transform: translateY(-50px);
-  }
-  100%{
-      color: black;
-      transform: translateY(0);
-  }
-}
-*{
-  animation: identifier 1.5s;
-  animation-timing-function: ease-in;
-}

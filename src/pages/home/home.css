@@ -5,16 +5,6 @@
     align-items: center;
     justify-content: center;
 }
-@keyframes identifier {
-    0%{
-        color: rgba(255, 255, 255, 0.151);
-        transform: translateY(-50px);
-    }
-    100%{
-        color: black;
-        transform: translateY(0);
-    }
-}
 .home .left-or-top{
     display: grid;
     justify-content: center;
@@ -23,15 +13,12 @@
 .home .left-or-top h1{
     font-size: 50px;
     height: fit-content;
-    animation: identifier 1.5s;
-    animation-timing-function: ease-in;
 }
 .home .left-or-top .h11{
 }
 .home .left-or-top .h12{
 }
 .home .left-or-top .h13{
-    animation: identifier 1.5s;
 }
 .home .left-or-top h1 span {
     font-size: 50px ;
