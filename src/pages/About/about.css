@@ -41,6 +41,8 @@
     text-align:justify;
     color: rgba(0, 0, 0, 0.384);
     font-size: 25px;
+    width: 70%;
+    margin-bottom: 10px;
 }
 .about .about-right-or-bottom p{
     width: 70%;

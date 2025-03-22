@@ -13,6 +13,7 @@ const Contact = () => {
                     <div className="email"><input type="email" placeholder="abc@gmail.com"/></div>
                     <div><h6>Name</h6></div>
                     <div className="message"><textarea type="text" placeholder="write something"/></div>
+                    <div className="btn"><h6><a target="_blank" href="mailto:mrvasanth93@gmail.com?subject=hellovasanth&body=hellovasanthpleasecontacstme">Contact</a></h6></div>
                 </div>
             </div>
         </>

@@ -12,7 +12,7 @@ const Nav = () =>{
                     <div className="link"><h5><a href="#home"><h5>Home</h5></a></h5></div>
                     <div className="link"><h5><a href="#about"><h5>About</h5></a></h5></div>
                     <div className="link"><h5><a href="#skills"><h5>skills</h5></a></h5></div>
-                    <div className="link"><a href="#contact"><h5>Contact</h5></a></div>
+                    <div className="link"><h5><a href="#contact"><h5>Contact</h5></a></h5></div>
                 </div>
             </div>
         </>
